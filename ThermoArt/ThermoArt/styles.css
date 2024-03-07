@@ -53,6 +53,12 @@ a:active {
     width: 20%;
     padding: 10px;
 }
+.float_menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
 
 /*Images*/
 .banner {
@@ -68,6 +74,12 @@ a:active {
 .logo {
     height: 100px;
     width: 100px;
+    padding: 10px;
+    left: 0px;
+}
+.tiny_logo {
+    height: 30px;
+    width: 30px;
     padding: 10px;
     left: 0px;
 }
@@ -132,6 +144,12 @@ a:active {
     border-radius: 20px;
     border: 0px;
     font-size: 16px;
+}
+.button_up{
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    display:flex;
 }
 .textinput {
     height: 40px;
