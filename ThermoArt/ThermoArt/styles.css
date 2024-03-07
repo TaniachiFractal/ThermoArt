@@ -151,15 +151,6 @@ a:active {
     bottom:10px;
     display:flex;
 }
-.textinput {
-    height: 40px;
-    width: 400px;
-    border-radius: 10px;
-    border-color: #2e5f82;
-    border-block-end-color: #2e5f82;
-    background-color: honeydew;
-    font-size: 20px;
-}
 .bigbutton {
     font-size: 150%;
     width: 25%;
@@ -175,6 +166,27 @@ a:active {
     padding: 10px;
     margin: 10px;
     background-color: honeydew;
+}
+
+/*Input*/
+textarea {
+    font-family: bahnschrift;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: #2e5f82;
+    border-block-end-color: #2e5f82;
+    background-color: honeydew;
+    font-size: 20px;
+}
+.textinput {
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    border-color: #2e5f82;
+    border-block-end-color: #2e5f82;
+    background-color: honeydew;
+    font-size: 20px;
 }
 
 
