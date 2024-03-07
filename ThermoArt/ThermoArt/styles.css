@@ -83,6 +83,10 @@ a:active {
     padding: 10px;
     left: 0px;
 }
+.upArrow {
+    transform:translateY(15px);
+    height: 15px;
+}
 
 /*Text*/
 .bluetext {
