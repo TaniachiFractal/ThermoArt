@@ -1,0 +1,104 @@
+﻿<html>
+<!--
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠤⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠊⢀⡠⠤⣀⠈⢢⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢀⠤⠒⠒⠢⢄⡔⡇⠀⡎⠀⠀⠈⡆⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⡰⠁⢠⠔⠒⢤⠀⠱⡱⡀⠘⠢⠤⠚⢀⡰⡡⠔⠒⠒⠤⡀⠀⠀⠀⠀⠀⠀
+⠀⠀⢀⠎⡇⠀⢇⠀⠀⢀⠇⠀⡇⠈⠒⠤⠤⢔⢎⠎⠀⡤⠒⠢⡄⠈⢆⠀⠀⠀⠀⠀
+⠀⠀⢸⠀⠘⢄⠈⠑⠒⠉⢠⢜⠕⠊⠉⠉⠒⢵⢹⠀⠸⡀⠀⠀⡸⠀⢸⠀⠀⠀⠀⠀
+⠀⠀⠀⠣⡀⢀⣉⣒⠒⡪⣣⠃⢀⠖⠉⠑⢆⠀⢣⠣⡀⠉⠒⠊⠁⡤⠃⠀⠀⠀⠀⠀
+⠀⠀⠀⡠⠊⠁⣀⡀⠉⠺⡸⡀⠘⣄⠀⢀⡜⠀⣸⠀⣈⣑⡒⢒⠝⠀⠀⠀⠀⠀⠀⠀ ThermoArt - Taniachi Fractal
+⠀⢀⢴⠁⢠⠋⠀⠈⢣⠀⢱⠑⢄⡀⠉⠁⣀⢖⠕⠉⢀⣀⠈⠑⢄⠀⠀⠀⠀⠀⠀⠀
+⠀⡎⠘⡄⠈⠦⣀⡠⠎⠀⡼⣀⠤⠬⢍⡩⡪⡎⠀⡜⠁⠀⠙⡄⠈⡆⠀⠀⠀⠀⠀⠀
+⠀⢣⠀⠈⠢⢄⣀⣀⢤⢫⠊⢀⡠⠤⣀⠈⢣⢣⠀⠱⢄⣀⠴⠁⢠⠃⠀⠀⠀⠀⠀⠀
+⠀⠀⠑⠤⣀⣀⡠⠔⡕⡇⠀⡎⠀⠀⠈⡆⠀⡇⠑⠤⣀⣀⡠⡜⠁⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢸⠀⠱⡀⠘⠢⠤⠚⢀⡰⠣⢄⣀⣀⠤⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⢆⠀⠈⠒⠤⠤⢔⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠢⠤⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+-->
+<head>
+    <title>
+        ТермоАрт - жалоба на товар
+    </title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" media="all">
+</head>
+<body>
+
+    <!--ЗАГОЛОВОК-->
+    <table cellspacing=0 class="header">
+        <tr>
+            <th class="hat1">
+                <a href="index.html"><img src="favicon.ico" alt="ТермоАрт" class="logo" align="left"></a>
+            </th>
+            <th class="giant_text" align="left">
+                ТермоАрт⠀⠀
+            </th>
+        </tr>
+    </table>
+
+    <!--МЕНЮ-->
+    <div>
+        <button onclick="document.location='instruction.html'">Инструкция</button>
+        <button onclick="document.location='shemes.html'">Схемы</button>
+        <button onclick="document.location='good_deals.html'">Хорошие товары</button>
+        <button onclick="document.location='add_sheme.html'">Добавить свою схему</button>
+    </div>
+
+    <!--САМА СТРАНИЦА-->
+    <h2 class="names_centered">ЖАЛОБА НА ТОВАР</h2>
+
+    <form action="mailto:tnmslv@yandex.ru" method="post" entype="text/plain" class="centered">
+        <h2>
+            Ваше имя:
+            <input id="your_name" type="text" placeholder="Введите ваше имя" required class="textinput" />
+        </h2>
+        <h2>
+            Ваш e-mail:
+            <input id="email" type="email" placeholder="e-mail" required class="textinput" />
+        </h2>
+        <h2>
+            Название товара:
+            <select class="textinput">
+                <option disabled>...</option>
+                <option value="Термомозаика Bondibon">Термомозаика Bondibon</option>
+                <option value="Основа для термомозаики Mazari">Основа для термомозаики Mazari</option>
+                <option value="Калька под карандаш deVENTE">Калька под карандаш deVENTE</option>
+                <option value="Пинцет Queen Fair">Пинцет Queen Fair</option>
+                <option value="Таблетница органайзер Dream House">Таблетница органайзер Dream House</option>
+                <option value="Утюг дорожный маленький MK Collection">Утюг дорожный маленький MK Collection</option>
+            </select>
+        </h2>
+        <h2>
+            Проблема:
+            <select class="textinput">
+                <option disabled>...</option>
+                <option value="Товара нет в наличии">Товара нет в наличии</option>
+                <option value="Товар некачественный">Товар некачественный</option>
+                <option value="Цена неверно указана">Цена неверно указана</option>
+                <option value="Другое">Другое</option>
+            </select>
+        </h2>
+
+
+        <h2>Комментарии:</h2>
+
+        <textarea rows=10 cols=100 placeholder="Опишите, что не так с товаром" title="Что не так с товаром?" required></textarea>
+
+        <h2>
+            <label for="choose">Каптча: О чем этот сайт?</label>
+            <input id="choose" name="i_like" required pattern="[Тт]ермомозаика|ТЕРМОМОЗАИКА" placeholder="Вводите сюда" class="textinput" title="Подсказка: как называются эти бусинки?" />
+        </h2>
+
+        <div class="tab"><button type="submit">Отправить</button> <button type="reset">Очистить</button></div>
+
+
+    </form>
+
+    <!--ПОДВАЛ-->
+    <p>⠀</p>
+    <p>⠀</p>
+    <h3 class="bluetext">Автор сайта: Маслова Татьяна - Taniachi Fractal: <a href="https://github.com/TaniachiFractal">GitHub</a> <a href="https://vk.com/taniachi_fractal">VK</a></h3>
+</body>
+</html> 

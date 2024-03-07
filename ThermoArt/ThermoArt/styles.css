@@ -1,0 +1,173 @@
+﻿/*
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠤⠤⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠊⢀⡠⠤⣀⠈⢢⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢀⠤⠒⠒⠢⢄⡔⡇⠀⡎⠀⠀⠈⡆⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⡰⠁⢠⠔⠒⢤⠀⠱⡱⡀⠘⠢⠤⠚⢀⡰⡡⠔⠒⠒⠤⡀⠀⠀⠀⠀⠀⠀
+⠀⠀⢀⠎⡇⠀⢇⠀⠀⢀⠇⠀⡇⠈⠒⠤⠤⢔⢎⠎⠀⡤⠒⠢⡄⠈⢆⠀⠀⠀⠀⠀
+⠀⠀⢸⠀⠘⢄⠈⠑⠒⠉⢠⢜⠕⠊⠉⠉⠒⢵⢹⠀⠸⡀⠀⠀⡸⠀⢸⠀⠀⠀⠀⠀
+⠀⠀⠀⠣⡀⢀⣉⣒⠒⡪⣣⠃⢀⠖⠉⠑⢆⠀⢣⠣⡀⠉⠒⠊⠁⡤⠃⠀⠀⠀⠀⠀
+⠀⠀⠀⡠⠊⠁⣀⡀⠉⠺⡸⡀⠘⣄⠀⢀⡜⠀⣸⠀⣈⣑⡒⢒⠝⠀⠀⠀⠀⠀⠀⠀ ThermoArt - Taniachi Fractal
+⠀⢀⢴⠁⢠⠋⠀⠈⢣⠀⢱⠑⢄⡀⠉⠁⣀⢖⠕⠉⢀⣀⠈⠑⢄⠀⠀⠀⠀⠀⠀⠀
+⠀⡎⠘⡄⠈⠦⣀⡠⠎⠀⡼⣀⠤⠬⢍⡩⡪⡎⠀⡜⠁⠀⠙⡄⠈⡆⠀⠀⠀⠀⠀⠀
+⠀⢣⠀⠈⠢⢄⣀⣀⢤⢫⠊⢀⡠⠤⣀⠈⢣⢣⠀⠱⢄⣀⠴⠁⢠⠃⠀⠀⠀⠀⠀⠀
+⠀⠀⠑⠤⣀⣀⡠⠔⡕⡇⠀⡎⠀⠀⠈⡆⠀⡇⠑⠤⣀⣀⡠⡜⠁⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢸⠀⠱⡀⠘⠢⠤⠚⢀⡰⠣⢄⣀⣀⠤⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⢆⠀⠈⠒⠤⠤⢔⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠢⠤⠤⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+*/
+body {
+background-color: white; 
+font-family: "bahnschrift";
+}
+
+table th:first-child {
+  border-radius: 20px;
+}
+
+table th:last-child {
+    border-radius: 25px;
+}
+.textinput {
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    border-color: #2e5f82;
+    border-block-end-color: #2e5f82;
+    background-color: honeydew;
+    font-size: 20px;
+}
+.productNames{
+    width:700px;
+}
+a:link {
+    color: #2e5f82
+}
+
+a:visited {
+    color: #83E08B;
+}
+
+a:hover {
+    color: mediumvioletred;
+}
+
+a:active {
+    color: #FFAA00;
+}
+
+.img_ {
+height:33%;
+margin: 20px 0 0 0 
+}
+
+.header {
+background: linear-gradient(to bottom right, pink, #FADADD);
+color: #2e5f82;
+border-radius: 25px;
+width: 100%;
+}
+
+.logo {
+height: 100px; width: 100px; padding: 10px; left: 0px;
+}
+.checkbox {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    margin: 10px;
+    background-color: honeydew;
+}
+
+.giant_text {
+font-size: 50px; 
+position: absolute;
+left: 130px;
+top: 30px;
+}
+
+button { 
+font-family: "bahnschrift";
+color: #2e5f82;  background: linear-gradient(to bottom right, pink, #FADADD); 
+cursor: pointer; padding: 10px; margin: 5px; 
+border-radius: 20px; border: 0px;
+font-size: 16px;
+width: 200px;
+}
+    button:hover {
+        background: linear-gradient(to bottom right, pink,#fab4bb);
+    }
+.button {
+    font-family: "bahnschrift";
+    color: #2e5f82;
+    background: linear-gradient(to bottom right, pink, #FADADD);
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 16px;
+}
+
+.h {
+margin: 5px;
+text-align:justify;
+}
+
+.banner {
+width: 100%;
+}
+
+.names {
+color: #2e5f82;
+font-size: 40px;
+}
+.names_centered {
+    color: #2e5f82;
+    font-size: 40px;
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+}
+.centered {
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+}
+
+.bigbutton {
+font-size:150%;
+width: 25%;
+height: 10%
+}
+
+.bluetext {
+    color: #2e5f82;
+}
+.reportflag{
+    width: 30px;
+    height: 30px;
+
+}
+.roundimg{
+    border-radius:30px;
+    
+}
+.price{
+    font-size: 400%;
+}
+.buyButton{
+    font-size:200%
+}
+
+/*ANIMATION*/
+
+@keyframes dance {
+    0%{}
+    50%{transform:rotate(-5deg);}
+}
+.dancing {
+    animation-name: dance;
+    animation-duration: 1s;
+    height: 33%;
+    animation-iteration-count: infinite;
+}
