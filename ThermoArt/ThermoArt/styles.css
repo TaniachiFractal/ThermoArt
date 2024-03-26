@@ -48,12 +48,6 @@ a:active {
     border-radius: 25px;
     width: 100%;
 }
-.discover {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    font-size:150%;
-}
 .centered {
     transform: translateX(25%);
 }
@@ -181,7 +175,7 @@ a:active {
 .bigbutton {
   font-size:110%;
     width: 80%;
-    height: 10%;
+    height: 100px;
 }
 @media all and (max-width:1200px) { /*big button*/
     .bigbutton {
