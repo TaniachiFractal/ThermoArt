@@ -24,6 +24,7 @@
     <None Include="ThermoArt\reportIcon.svg" />
     <None Include="ThermoArt\shemes.html" />
     <None Include="ThermoArt\styles.css" />
+    <None Include="ThermoArt\404.html" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="ThermoArt\favicon.ico">

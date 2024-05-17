@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="ThermoArt\404.html" />
     <None Include="ThermoArt\add_sheme.html" />
     <None Include="ThermoArt\good_deals.html" />
     <None Include="ThermoArt\index.html" />
